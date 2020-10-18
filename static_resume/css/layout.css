@@ -5,8 +5,8 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #1CCBA0;
-    border-bottom: 5px solid #1CCBA0;
+    border-top: 5px solid #0074A6;
+    border-bottom: 5px solid #0074A6;
 }
 
 .container {
@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #19B38C;
+    color: #0074A6;
 }
 
 p, address {
@@ -40,7 +40,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #19B38C;
+    color: #0074A6;
 }
 
 header > h1 {
