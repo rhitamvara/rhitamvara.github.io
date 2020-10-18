@@ -1,0 +1,44 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+# paginate: 5
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://rhitamvara.github.io/
+baseurl: /
+title: Rhitamvara Pokharel
+author: Rhitamvara Pokharel
+description: Personal blog and resume
+avatar: profile.png
+email: rhitamvara@gmail.com
+github: rhitamvara # username
+# twitter: Rhitamvara
+linkedin: rhitamvara-pokharel-ba1a1a146
+
+website: rhitamvara.github.io
+website_full: https://rhitamvara.github.io/
+
+address:
+  city: Kathmandu
+  country: Nepal
+#Comment out if you don't want disqus
+# disqus: username
+# google_analytics: UA-69391421-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
+
+sass:
+    sass_dir: _sass
+
+# Defining plugins here is necessary because certain hosts (e.g. Github Pages, Netlify) do not build sites using Bundler.
+plugins:
+  - jekyll-paginate
+  - jekyll-menus
